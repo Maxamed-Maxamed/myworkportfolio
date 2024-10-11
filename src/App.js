@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css'; // Correct path to index.css
+
 
 function App() {
   return (
