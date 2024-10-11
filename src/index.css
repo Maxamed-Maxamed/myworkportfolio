@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Replace <uniquifier> and <weight> with actual values */
+.inter-custom {
+  font-family: "Inter", serif; /* You can keep "serif" or change it to a different fallback */
+  font-optical-sizing: auto; /* This property is supported in modern browsers */
+  font-weight: 400; /* Replace <weight> with a numeric value (e.g., 400 for normal, 700 for bold) */
+  font-style: normal; /* You can change this to italic if needed */
 }
